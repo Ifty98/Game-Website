@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css" type="text/CSS">
+<!-- manage the viewport to make the website look good in any device -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Space Paddle </title>
+</head>
+<body>
+  <script src="Javascript/main.js"></script>
+<header>
+   <img src="images/Game logo.png" class="logo" alt="The logo of Space Paddle">
+   <h1> Space Paddle </h1>
+</header>
+<!-- A navagation bar that allows to the user to navagate
+trough the different pages -->
+<nav>
+  <ul>
+    <li><a href="Game.html">Home</a></li>
+	<li><a class = "Running" href="Login.html">Login</a></li>
+	<li><a href="Register.html">Register</a></li>
+	<li><a href="Ranking.html">Ranking</a></li>
+	<li><a href="Rules.html">Rules</a></li>
+  </ul>
+</nav> 
+<!-- The class "MainBox" defines the main container of the website.
+All the pages have the same structer except "MainBox" where the content
+of this changes depeding of the page -->
+<div class="MainBox">
+  <!-- Outputs an image related to the current page -->
+    <img class="LogInImage1" src="images/Log In.jpg" alt="Log In image">
+    <!-- creates a log in form with a avatar
+    image for the user to access to an account -->
+    <div class="LogInForm">
+      <img class="LogInAvatar" src="images/Avatar.jpg" alt="Log In avatar">
+      <form method="get" action="Game.html">
+      <p class="LogInTxt">Welcome back, please introduce your log in details:</p>
+      <div class="Formtext">
+        <label>Username</label>
+        <input id="login_name" type="text" placeholder="Enter username" required>
+      </div>
+      <div class="Formtext">
+        <label>Password</label>
+        <input id="login_passw" type="password" placeholder="Enter password" required>
+      </div>
+      <button type="submit" onclick=" return validate_data()">Log In</button>
+      <div class="RegisterLink">
+        <!-- add a link to the registration page to make it
+        faster to access -->
+        Don't have an account yet? <a href="Register.html">Register</a>
+      </div>
+    </form>
+  </div>    
+</div>
+<footer>
+  <!-- provides accessing links to external pages by adding them to a image -->
+  <div class="media">
+   <a href=""><img src="images/Twitter.jpg" class="mediaImg" alt="Twitter link"></a>
+   <a href=""><img src="images/Instagram.png" class="mediaImg" alt="Instagram link"></a>
+   <a href=""><img src="images/Facebook.png" class="mediaImg" alt="Facebook link"></a>
+  </div>
+    <h2>Follow us</h2>
+    <h3>Contact</h3>
+    <!-- creates a cointainer to show the contact details of the
+    website developer  -->
+    <div class="ContactDetails">
+      <p><b>Email: </b>TM981@live.mdx.ac.uk</p>
+      <p><b>Phone number: </b>+44 73 5384 9968</p>
+      <p><b>Address: </b>Middlesex University</p>
+      <P>The Burroughs</P>
+      <p>London NW4 4BT</p>
+    </div>
+</footer>
+</body>
+</html>

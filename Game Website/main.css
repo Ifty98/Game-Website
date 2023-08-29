@@ -1,0 +1,403 @@
+/*main css*/
+
+body {
+	background-color: #2d3436;
+	/*add a background image for the name and logo of the website*/
+	background-image: url(images/Background.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 1540px 240px;
+}
+
+h1 {
+	color: #0abde3;
+	font-size: 50px;
+    margin-left: 5%;
+	margin-top: 5%;
+	text-shadow: 3px 3px black;
+}
+/*changes the text color when the mouse cursor is over the text*/
+h1:hover {
+	color: #b33939;
+	font-size: 50px;
+	margin-left: 5%;
+	text-shadow: 3px 3px black;
+}
+header {
+	margin: 15px auto;
+	display: flex;
+	
+}
+.logo {
+	padding: 0px;
+	margin-left: 20%;
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+
+}
+nav li a {
+	display: block;
+	padding: 10px 15px; 
+	background-color: #b33939;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+nav li {
+	float: left;
+}
+nav  ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+	margin-left: 35%;
+	margin-top: 40px;
+}
+nav li ul {
+	display: none;
+}
+/*changes the background color of the links of the navagation bar when
+the mouse cursor is over it*/
+nav li a:hover {
+	background-color: #2e86de;
+}
+nav li:hover > ul {
+	display: block;
+}
+
+footer {
+	background-image: linear-gradient(rgb(34, 150, 197), rgb(159, 32, 214));
+	position: absoluteS;
+	padding: 0%;
+	margin-top: 150px;
+	height: 250px;
+}
+
+.ContactDetails {
+	position: relative;
+	bottom: 260px;
+	margin-left: 17%;
+	font-size: 20px;
+	width: 400px;
+	color: rgb(245, 242, 242);
+}
+/*specifies the size, radius and position of the images that
+works like a link to external pages*/
+.mediaImg {
+	width: 50px;
+	height: 50px;
+	border-radius: 360px;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.media {
+    margin-left: 75%;
+}
+
+h2 {
+	position: relative;
+	bottom: 95px;
+	margin-left: 63%;
+	font-size: 30px;
+	text-shadow: 3px 3px 4px rgb(22, 49, 226);
+}
+
+h3 {
+	position: relative;
+	bottom: 160px;
+	margin-left: 5%;
+	font-size: 30px;
+	text-shadow: 3px 3px 4px rgb(22, 49, 226);
+}
+/*changes the background color of the link in the navagation bar
+depending on which page is currently running*/
+.Running {
+	background-color: #2e86de;
+}
+
+/*modifies the size and color of the main container where is the content of
+each page*/
+.MainBox {
+	background-image: linear-gradient(rgb(24, 220, 223),rgb(180, 26, 139),rgb(31, 209, 218));
+	width: 1100px;
+	height: 700px;
+	border: 15px outset rgb(159, 5, 156);
+	margin-left: 10%;
+	margin-top: 5%;
+}
+.GameSpace {
+	width: 1000px;
+	height: 500px;
+	border-radius: 20px;
+	border: 10px outset;
+	border-color: #f5f2f7;
+	background-image: linear-gradient(rgb(20, 109, 134), black);
+	position: relative;
+	top: 30px;
+	left: 45px;
+}
+#GameStart {
+	position: relative;
+	top: 50px;
+	left: 30%;
+	width: 150px;
+	font-size: 15px;
+    background-color: #2d3436;
+}
+#GameStart:hover {
+	background-color: rgb(20, 109, 134);
+}
+#GameReset {
+	position: relative;
+	top: 50px;
+	left: 40%;
+	width: 150px;
+	font-size: 15px;
+    background-color: #2d3436;
+}
+#GameReset:hover {
+	background-color: rgb(20, 109, 134);
+}
+  /*Login page*/
+
+.LogInImage1 {
+    width: 580px;
+    height: 703px;
+	margin-left: -1px;
+	margin-top: -2px;
+}
+
+.LogInForm {
+	position: absolute;
+	top: 60%;
+	left: 55%;
+}
+
+.LogInAvatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 360px;
+	margin-left: 70px;
+}
+
+/*adjust the size and the border of the input box*/
+input {
+	width: 100%;
+	padding: 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+  
+button {
+	background-color: #aa0483;
+	color: rgb(241, 244, 245);
+	padding: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 20px;
+	width: 370px;
+}
+/*specifies how will look the button when the user point the mouse 
+cursor over it*/
+button:hover {
+	background: rgb(178, 14, 193);
+}
+
+.RegisterLink {
+	padding-top: 30px;
+    color: #f6f9fa;
+}
+
+.LogInTxt {
+	font-size: 18px;
+	color: rgb(241, 241, 247);
+}
+
+.Formtext {
+	color: #f7edf9;
+	font-size: 20px;
+}
+  
+  /*Register page*/
+
+.RegisterImage1 {
+    width: 580px;
+    height: 703px;
+	margin-left: -1px;
+	margin-top: -2px;
+}
+
+.RegisterForm {
+	position: absolute;
+	top: 52%;
+	left: 55%;
+}
+
+.RegisterAvatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 360px;
+	margin-left: 70px;
+	margin-top: 3px;
+}
+input {
+	width: 100%;
+	padding: 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	
+}
+  
+button {
+	background-color: #aa0483;
+	color: rgb(241, 244, 245);
+	padding: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 20px;
+	width: 370px;
+}
+/*changes the button background color when the mouse cursor is over the button*/
+button:hover {
+	background: rgb(178, 14, 193);
+}
+.RegisterTxt {
+	font-size: 18px;
+	color: rgb(241, 241, 244);
+}
+.Formtext2 {
+	color: #f7edf9;
+	font-size: 20px;
+}
+
+/*Ranking page*/
+
+table {
+    width: 551px;
+    height: 40%;
+	background-image: linear-gradient(rgb(20, 73, 187), rgb(177, 55, 221));
+	position: relative;
+	bottom: 2px;
+	left: -1px;
+}
+th {
+   height: 50px;
+   color: hsl(0, 15%, 95%);
+}
+.position {
+	width: 130px;
+}
+.rank {
+	text-align: center;
+	font-size: 40px;
+}
+.user {
+	text-align: center;
+	font-size: 25px;
+	color: #e7e7e7;
+	animation-name: change-color;
+	animation-duration: 4s;
+	/*set how many times the animation should be repeated*/
+	animation-iteration-count: infinite;
+}
+/*set an animation to change the color of the text*/
+@keyframes change-color {
+	0%   {color: rgb(250, 249, 251);}
+	25%  {color: rgb(209, 12, 104);}
+	50%  {color: rgb(25, 234, 213);}
+	100% {color: rgb(255, 255, 255);}
+  }
+#player_score {
+	text-align: center;
+	font-size: 80px;
+	animation-name: change-color;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+#player_rank {
+	text-align: center;
+	font-size: 80px;
+	animation-name: change-color;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+/*modifies the border of the table and the columns*/
+table {
+    border-collapse: collapse;
+}
+tr {
+    border-top: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+td {
+    height: 30px;
+}
+.RankingImage {
+	width: 551px;
+	height: 702px;
+	position: relative;
+	left: 50%;
+	bottom: 281px;
+}
+.ScoreTxt {
+	color: #f6f9fa;
+	width: 200px;
+	position: relative;
+	bottom: 103%;
+    font-size: 25px;
+	background-image: linear-gradient(rgb(20, 73, 187), rgb(177, 55, 221));
+}
+.RankingTxt {
+	width: 250px;
+	position: relative;
+	bottom: 103%;
+    font-size: 25px;
+	background-image: linear-gradient(rgb(20, 73, 187), rgb(177, 55, 221));
+	color: #f6f9fa;
+}
+/*corrects the size, border, color and position of the cointainers where
+will be displayed the user best score and his ranking position*/
+.ScoreArea {
+	border: 5px solid rgb(16, 15, 16);
+	width: 200px;
+	height: 100px;
+	position: relative;
+	bottom: 104%;
+	left: 13%;
+	background-image: linear-gradient(rgb(20, 73, 187), rgb(177, 55, 221));
+	border-radius: 20%;
+}
+
+/*Rules page*/
+
+h4 {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	color: #65059d;
+	text-shadow: 3px 3px 4px rgb(174, 17, 202);
+}
+.RulesTxt {
+	width: 400px;
+	position: relative;
+	bottom: 20px;
+	left: 340px;
+	text-align: center;
+	font-size: 20px;
+	color: #f6f9fa;
+}
+.EachRule {
+	padding: 5%;
+}
